@@ -1,0 +1,31 @@
+POST http://localhost:5000/api/auth/register/
+Content-Type: application/json
+
+{
+    "username": "vuuuusss",
+    "password": "1234"
+}
+###
+GET http://localhost:5000/api/posts
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjFlNmM2NWE4NWVkNmNlNmY1MmFmYTgiLCJpYXQiOjE2NDY2Nzg2NDZ9.MY4DrSJXFYsbuuWRV_I5PeQ5Evu46JrdOW4EN2r7KX8
+
+{
+    "title": "React",
+    "description": "React",
+    "url": "react.com",
+    "status": "LEARNED"
+}
+
+
+###
+POST http://localhost:5000/api/auth/login/
+Content-Type: application/json
+
+{
+    "username": "vu",
+    "password": "1234"
+}
