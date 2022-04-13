@@ -1,8 +1,7 @@
-import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Badge from 'react-bootstrap/Badge'
-import Button from 'react-bootstrap/Button'
 import ActionButtons from './ActionButtons'
 
 const SinglePost = ({ post: { _id, status, title, description, url } }) => (
@@ -25,10 +24,10 @@ const SinglePost = ({ post: { _id, status, title, description, url } }) => (
 							pill
 							variant={
 								status === 'LEARNED'
-									? 'success'
-									: status === 'LEARNING'
-									? 'warning'
-									: 'danger'
+								? 'success'
+								: status === 'LEARNING'
+								? 'warning'
+								: 'danger'
 							}
 						>
 							{status}

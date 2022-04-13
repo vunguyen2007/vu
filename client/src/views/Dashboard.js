@@ -8,7 +8,7 @@ import Spinner from 'react-bootstrap/Spinner'
 import Button from "react-bootstrap/Button"
 import Row from 'react-bootstrap/Row'
 import Col from "react-bootstrap/Col"
-import Toast from "react-bootstrap/Toast"
+//import Toast from "react-bootstrap/Toast"
 import OverlayTrigger from "react-bootstrap/OverlayTrigger"
 import Tooltip  from "react-bootstrap/Tooltip"
 import SinglePost from "../components/posts/SinglePost"

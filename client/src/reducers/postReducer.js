@@ -1,4 +1,4 @@
-import { POSTS_LOADED_SUCCESS, POSTS_LOADED_FAIL,ADD_POST } from "../contexts/constants"
+import { POSTS_LOADED_SUCCESS, POSTS_LOADED_FAIL,ADD_POST, DELETE_POST, FIND_POST, UPDATE_POST } from "../contexts/constants"
 
 
 export const postReducer = (state, action) => {

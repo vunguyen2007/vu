@@ -56,7 +56,7 @@ router.put('/:id', verifyToken, async(req,res) =>{
         let updatedPost = {
             title,
             description: description || '',
-            url: (url.startWith('https://')? url: `https://${url}`) || '',
+            url: (url.startsWith('https://')? url: `https://${url}`) || '',
             status: status || 'TO LEARN'
         }
         

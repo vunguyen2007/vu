@@ -9,10 +9,10 @@ import { PostContext } from "../../contexts/PostContext";
 
 const ActionButtons = ({url, _id}) =>{
 
-    const {deletePost, findPost, setShowUpdateModal, showUpdateModal} = useContext(PostContext)
+    const {deletePost, findPost, setShowUpdatePostModal} = useContext(PostContext)
     const choosePost = postId => {
         findPost(postId) 
-        setShowUpdateModal(true)
+        setShowUpdatePostModal(true)
     }
     return (
         <>
